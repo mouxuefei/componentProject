@@ -1,1 +1,2 @@
-# componentProject
+### 组件化demo
+* 从自己的项目里面分割出来的
