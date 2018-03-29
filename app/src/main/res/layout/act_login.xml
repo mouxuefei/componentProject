@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+
+
+    <com.sihaiwanlian.baseproject.widget.XEditText
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_60"
+        android:layout_marginRight="@dimen/dp_60"
+        android:background="@null"
+        android:drawableLeft="@drawable/iphone"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="请输入11位手机号码"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:paddingBottom="@dimen/dp_5"
+        android:textSize="@dimen/text_size_16"
+        app:x_clearDrawable="@drawable/close_2"
+        app:x_disableClear="false"
+        tools:ignore="RtlHardcoded"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@color/_18ACFC"/>
+
+    <com.sihaiwanlian.baseproject.widget.XEditText
+        android:id="@+id/login_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_60"
+        android:layout_marginRight="@dimen/dp_60"
+        android:layout_marginTop="@dimen/dp_20"
+        android:background="@null"
+        android:drawableLeft="@drawable/pass_word"
+        android:drawablePadding="@dimen/dp_10"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:maxLength="19"
+        android:paddingBottom="@dimen/dp_5"
+        android:textSize="@dimen/text_size_16"
+        app:x_clearDrawable="@drawable/close_2"
+        app:x_disableClear="false"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_50"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@color/_18ACFC"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_50"
+        android:layout_marginRight="@dimen/dp_50"
+        >
+
+        <TextView
+            android:id="@+id/act_login_forgetPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_15"
+            android:layout_marginTop="@dimen/dp_5"
+            android:gravity="end"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:text="@string/forget_pwd"
+            android:textColor="@color/text_bg_selector"
+            android:textSize="@dimen/text_size_16"/>
+
+        <TextView
+            android:id="@+id/tv_regester"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/dp_5"
+            android:gravity="end"
+            android:paddingBottom="@dimen/dp_5"
+            android:paddingTop="@dimen/dp_5"
+            android:text="@string/newuser_register"
+            android:textColor="@color/text_bg_selector"
+            android:textSize="@dimen/text_size_16"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/btn_size20_white_margin60"
+        android:layout_marginTop="@dimen/dp_40"
+        android:background="@drawable/bg_botton_shape_selector"
+        android:text="@string/login_in"/>
+
+
+</LinearLayout>

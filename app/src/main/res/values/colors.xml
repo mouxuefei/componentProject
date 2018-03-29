@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#49B4F0</color>
+    <color name="colorPrimaryDark">#49B4F0</color>
+    <color name="white">#ffffff</color>
+    <color name="half_white">#88ffffff</color>
+    <color name="barcolor">#49B4F0</color>
+    <color name="color_gray_f2">#F2F2F2</color>
+    <color name="color_gray_69">#69696C</color>
+    <color name="color_black_4a">#4A4A4A</color>
+    <color name="color_black">#ff000000</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_green">#00ff00</color>
+    <color name="color_blue">#00BAED</color>
+    <color name="color_trants">#00ffffff</color>
+
+    <color name="shadow">#dfdfdf</color>
+    <color name="outsideBlue">#2690f8</color>
+    <color name="_18ACFC">#18ACFC</color>
+    <color name="_0085D0">#0085D0</color>
+    <color name="_999">#999999</color>
+    <color name="_555">#555555</color>
+    <color name="_333">#333333</color>
+    <color name="_111">#111111</color>
+    <color name="_858585">#858585</color>
+    <color name="_666">#666666</color>
+    <color name="_aaa">#aaaaaa</color>
+    <color name="_bbb">#bbbbbb</color>
+    <color name="_ccc">#cccccc</color>
+    <color name="_ff51a7">#ff51a7</color>
+    <color name="_E851A0">#E851A0</color>
+    <color name="_0085d0">#0085d0</color>
+    <color name="_E40077">#E40077</color>
+    <color name="_222">#222222</color>
+    <color name="_F95D4C">#F95D4C</color>
+    <color name="_56ACFB">#56ACFB</color>
+    <color name="_FF76C2">#FF76C2</color>
+    <color name="_f0495d">#f0495d</color>
+    <color name="_e10076">#e10076</color>
+    <color name="_55000000">#55000000</color>
+    <color name="_ffd200">#ffd200</color>
+    <color name="_648FEF">#648FEF</color>
+    <color name="_49B4F0">#49B4F0</color>
+    <color name="_f95d4c">#f95d4c</color>
+    <color name="_1c8ffc">#1c8ffc</color>
+    <color name="_F95E4C">#F95E4C</color>
+    <color name="_0F98E5">#0F98E5</color>
+    <color name="_0797E8">#0797E8</color>
+
+</resources>

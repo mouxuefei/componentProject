@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'//kotlin扩展
+apply plugin: 'kotlin-kapt'//
+//每个module都要添加
+kapt {
+    arguments {
+        arg("moduleName", project.getName())
+    }
+}
+
+android {
+    compileSdkVersion = 27
+    buildToolsVersion = '27.0.3'
+
+    signingConfigs {
+        config {
+            keyAlias 'sihaiwanlian'
+            keyPassword 'sihaiwanlian'
+            storeFile file('cjev.jks')
+            storePassword 'sihaiwanlian'
+            v1SigningEnabled true
+            v2SigningEnabled true//android 7.0设置v2打包不可用
+        }
+    }
+    defaultConfig {
+        applicationId "com.changjiangev.cjev"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode = 1
+        versionName = '1.0'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true//分包配置
+        ndk {
+            abiFilters "armeabi"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true  //开启代码混淆
+            zipAlignEnabled true
+            shrinkResources true    // 移除无用的resource文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+
+        debug {
+            minifyEnabled false  //开启代码混淆
+            zipAlignEnabled false
+            shrinkResources false    // 移除无用的resource文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+
+    }
+
+}
+
+
+dependencies {
+    implementation 'com.alibaba:arouter-api:1.2.1.1'
+    kapt 'com.alibaba:arouter-compiler:1.1.4'
+    //kotlin 支持库
+    api "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+
+    implementation project(':baselib')
+    implementation project(':home')
+    implementation project(':personal')
+    implementation project(':baseproject')
+}

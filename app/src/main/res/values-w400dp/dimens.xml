@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<dimen name="dp_2">2.22dp</dimen>
+	<dimen name="dp_3">3.33dp</dimen>
+	<dimen name="dp_5">5.56dp</dimen>
+	<dimen name="dp_6">6.67dp</dimen>
+	<dimen name="dp_10">11.11dp</dimen>
+	<dimen name="dp_15">16.67dp</dimen>
+	<dimen name="dp_20">22.22dp</dimen>
+	<dimen name="dp_25">27.78dp</dimen>
+	<dimen name="dp_30">33.33dp</dimen>
+	<dimen name="dp_35">38.89dp</dimen>
+	<dimen name="dp_40">44.44dp</dimen>
+	<dimen name="dp_42">46.67dp</dimen>
+	<dimen name="dp_45">50.00dp</dimen>
+	<dimen name="dp_50">55.56dp</dimen>
+	<dimen name="dp_60">66.67dp</dimen>
+	<dimen name="dp_70">77.78dp</dimen>
+	<dimen name="dp_80">88.89dp</dimen>
+	<dimen name="dp_100">111.11dp</dimen>
+	<dimen name="dp_120">133.33dp</dimen>
+	<dimen name="dp_140">155.56dp</dimen>
+	<dimen name="dp_160">177.78dp</dimen>
+	<dimen name="dp_180">200.00dp</dimen>
+	<dimen name="dp_200">222.22dp</dimen>
+	<dimen name="dp_240">266.67dp</dimen>
+	<dimen name="dp_260">288.89dp</dimen>
+	<dimen name="dp_280">311.11dp</dimen>
+</resources>

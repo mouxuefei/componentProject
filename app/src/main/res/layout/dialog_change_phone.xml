@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/dialog_cancel_sure"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:gravity="center"
+        android:text="温馨提示"
+        android:textColor="@color/_0085D0"
+        android:textSize="@dimen/text_size_18"/>
+
+    <include layout="@layout/include_line_2x"/>
+
+    <TextView
+        android:id="@+id/dialog_open_door_tv_allDoor"
+        style="@style/tv_16"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dp_30"
+        android:layout_marginTop="@dimen/dp_30"
+        android:text="修改号码成功,请重新登录"
+        android:textColor="@color/_555"/>
+
+    <include
+        layout="@layout/include_line_2x"
+        />
+
+    <Button
+        android:id="@+id/dialog_btnSure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_selector"
+        android:paddingBottom="@dimen/dp_15"
+        android:paddingTop="@dimen/dp_15"
+        android:text="确定"
+        android:textColor="@color/_0085D0"
+        android:textSize="@dimen/text_size_16"/>
+</LinearLayout>

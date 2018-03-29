@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/home_tab_home_selector"
+        id="@+id/bb_menu_main"
+        title="@string/home"/>
+    <tab
+        icon="@drawable/home_tab_lookcar_selector"
+        id="@+id/bb_menu_lookcar"
+        title="@string/home_lookcar"/>
+    <tab
+        icon="@drawable/home_tab_guide_selector"
+        id="@+id/bb_menu_data"
+        title="@string/home_carroutes"/>
+
+    <tab
+        icon="@drawable/home_tab_person_selector"
+        id="@+id/bb_menu_setting"
+        title="@string/home_personal"/>
+</tabs>

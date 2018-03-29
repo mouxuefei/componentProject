@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="actionMenuTextColor">@color/color_gray_69</item>
+        <item name="android:actionMenuTextColor">@color/color_gray_69</item>
+        <item name="colorControlActivated">@color/barcolor</item>
+        <item name="colorControlHighlight">@color/barcolor</item>
+        <item name="colorControlNormal">@color/_999</item>
+    </style>
+
+    <style name="splash_theme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@drawable/first_screen</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="versionCheckLibvtransparentTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="fragment_right_tv_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_35</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:textColor">@color/_111</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+
+
+</resources>
